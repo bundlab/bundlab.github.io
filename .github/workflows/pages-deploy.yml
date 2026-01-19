@@ -33,7 +33,7 @@ jobs:
       # Chirpy-specific steps (these run bash scripts to generate extra files like tags/categories)
       - name: Build Chirpy extras
         run: |
-          bash tools/run.sh -r         # Or similar; generates _site-ready files
+          bash tools/run.sh        # Or similar; generates _site-ready files
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --verbose   # Builds the static site
