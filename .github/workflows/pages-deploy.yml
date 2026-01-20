@@ -2,8 +2,8 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: [ "main" ]      # Triggers on pushes to main branch
-  workflow_dispatch:          # Allows manual trigger from Actions tab
+    branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,34 +12,31 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false   # Prevents multiple runs from queuing
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4   # Gets your repo code
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'        # Or whatever your Gemfile needs (Chirpy often uses 3.1+)
-          bundler-cache: true        # Caches gems for faster runs
+          ruby-version: '3.3'  # Works well with Chirpy; change to 3.1 if needed
+          bundler-cache: true
 
       - name: Install dependencies
-        run: bundle install          # Installs jekyll-theme-chirpy + other gems
-
-      # Chirpy-specific steps (these run bash scripts to generate extra files like tags/categories)
-      - name: Build Chirpy extras
-        run: |
-          bash tools/run.sh        # Or similar; generates _site-ready files
+        run: bundle install
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --verbose   # Builds the static site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --verbose
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3   # Prepares built site for deployment
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     environment:
@@ -50,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4   # Deploys the artifact to your Pages site
+        uses: actions/deploy-pages@v4
