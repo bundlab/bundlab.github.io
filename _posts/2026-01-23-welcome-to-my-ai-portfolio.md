@@ -4,7 +4,7 @@ title:  "Welcome to My AI/ML Journey!"
 date:   2026-01-23 18:00:00 +0100   # Adjust time to your preference (future/past is fine)
 categories: [intro, ai, portfolio]
 tags: [welcome, first-post, ai-projects]
-pin: true                           # ← This pins it to the TOP of homepage!
+pin: false                           # ← This pins it to the TOP of homepage!
 toc: false                          # Optional: no table of contents
 ---
 

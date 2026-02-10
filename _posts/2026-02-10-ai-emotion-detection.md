@@ -1,8 +1,10 @@
 ---
-layout: post
 title: "AI That Cares: Building an Emotion and Fatigue Detector"
 date: 2026-02-10 10:00:00 +0100
-categories: ai-ml computer-vision
+categories: [AI, Computer Vision]
+tags: [emotion-detection, python, biometric]
+image:
+  path: /assets/img/posts/emotion_detection.png
 ---
 
 In my journey as a developer in Maiduguri, I’ve always been fascinated by how machines can understand human states. My project, **emotion-fatigue-detector_app**, was born from a simple question: *Can AI prevent accidents by knowing when we are tired?*
