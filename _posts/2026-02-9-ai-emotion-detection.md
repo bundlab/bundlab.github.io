@@ -1,6 +1,6 @@
 ---
 title: "AI That Cares: Building an Emotion and Fatigue Detector"
-date: 2026-02-10 10:00:00 +0100
+date: 2026-02-9 10:00:00 +0100
 categories: [AI, Computer Vision]
 tags: [emotion-detection, python, biometric]
 image:
