@@ -1,44 +1,44 @@
-# Chirpy Starter
+# 🚀 Abdullahi | @bundlab 
+### Full-Stack Developer & AI/ML Specialist
+[![Website](https://img.shields.io/badge/Website-bundlab.github.io-blue?style=for-the-badge&logo=jekyll)](https://bundlab.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bundlab)
+[![Twitter](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com/bundlab_)
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+---
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## 🛠 About Me
+I am a developer based in **Maiduguri, Nigeria**, focused on building AI-enhanced applications that solve real-world security and health challenges. My work spans from desktop biometrics to mobile computer vision.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+- 🔭 **Current Focus:** Biometric reconstruction and real-time fatigue detection.
+- 🌱 **Stack:** Python, TensorFlow, Flutter, and Ubuntu Linux.
+- ✍️ **Blogging:** I share my journey and technical deep-dives at [bundlab.github.io](https://bundlab.github.io).
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+---
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+## 🧬 Tech Stack & Badges
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+---
 
-## Usage
+## 🧪 Key Projects
+| Project | Description | Link |
+| :--- | :--- | :--- |
+| **Emotion & Fatigue** | Real-time AI safety monitoring | [Repo](https://github.com/bundlab/emotion-fatigue-detector_app) |
+| **Biometric Reconstruction** | Fingerprint-to-Face synthesis | [Repo](https://github.com/bundlab/Fingerprint_to_Face_Detection_Project) |
+| **Poison Detector** | Toxicity identification via CV | [Repo](https://github.com/bundlab/poison-detector_app) |
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+---
 
-## Contributing
+## 📊 GitHub Stats
+![Bundlab's GitHub stats](https://github-readme-stats.vercel.app/api?username=bundlab&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bundlab&layout=compact&theme=tokyonight)
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+---
 
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
-Update
+## 📫 Let's Connect
+- **Email:** [bundlab.org@gmail.com](mailto:bundlab.org@gmail.com)
+- **X (Twitter):** [@bundlab_](https://x.com/bundlab_)
