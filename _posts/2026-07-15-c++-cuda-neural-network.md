@@ -3,8 +3,6 @@ title: "Building a GPU-Accelerated Neural Network Engine with C++ and CUDA"
 date: 2026-07-15 10:00:00 +0100
 categories: [AI, CUDA]
 tags: [c++, cuda, neural-network, gpu, deep-learning]
-image:
-  path: /assets/img/posts/cuda_neural_network.png
 ---
 
 Artificial Intelligence has transformed the way we solve complex problems, but high-performance machine learning still requires efficient computation. That challenge inspired me to build **CUDA Neural Network**—a neural network framework written in modern C++ and accelerated with NVIDIA CUDA.

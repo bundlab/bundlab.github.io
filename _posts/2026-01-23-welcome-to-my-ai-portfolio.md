@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to My AI/ML Journey!"
 date:   2026-01-23 18:00:00 +0100   # Adjust time to your preference (future/past is fine)
-categories: [intro, ai, portfolio]
+categories: [Intro, AI, Portfolio]
 tags: [welcome, first-post, ai-projects]
 pin: false                           # ← This pins it to the TOP of homepage!
 toc: false                          # Optional: no table of contents
@@ -13,14 +13,18 @@ Hi, I'm Abdullahi (@bundlab) from Maiduguri, Nigeria 👋
 Full-stack developer creating **AI-enhanced desktop and mobile apps**.
 
 This is my space to share thoughts, projects, and experiments in:
+- Cuda Neural Network
 - Biometrics & authentication
+- Enterprise AI Architecture
 - Emotion & fatigue detection
 - Poison/toxicity identification
 - Fingerprint-to-face reconstruction
 - Real-time voice streaming
 
 Check out some of my key repos:
+- [cuda-neural-network](https://github.com/bundlab/cuda-neural-network)
 - [BiometricProject](https://github.com/bundlab/BiometricProject)
+- [enterprise-ai-architecture](https://github.com/bundlab/enterprise-ai-architecture)
 - [emotion-fatigue-detector_app](https://github.com/bundlab/emotion-fatigue-detector_app)
 - [poison-detector_app](https://github.com/bundlab/poison-detector_app)
 - [Fingerprint_to_Face_Detection_Project](https://github.com/bundlab/Fingerprint_to_Face_Detection_Project)
